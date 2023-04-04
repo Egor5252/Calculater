@@ -21,6 +21,7 @@ object Form1: TForm1
     Width = 326
     Height = 21
     ParentShowHint = False
+    ReadOnly = True
     ShowHint = False
     TabOrder = 0
     OnKeyPress = Edit1KeyPress

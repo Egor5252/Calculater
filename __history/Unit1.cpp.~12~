@@ -61,6 +61,11 @@ void __fastcall TForm1::Edit1KeyPress(TObject *Sender, System::WideChar &Key)
 {
 	if(Key == 13) {
 		Form1->Button1->Click();
+	} else
+	if(Key == 8) {
+		Form1->Edit1->Text = Form1->Edit1->Text.Delete(Form1->Edit1->Text.Length(),1);
+	} else {
+		Form1->Edit1->Text += Key;
 	}
 }
 //---------------------------------------------------------------------------
