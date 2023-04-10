@@ -19,7 +19,7 @@ object Form1: TForm1
     Left = 8
     Top = 8
     Width = 326
-    Height = 33
+    Height = 21
     ParentShowHint = False
     ShowHint = False
     TabOrder = 0
@@ -29,7 +29,7 @@ object Form1: TForm1
     Left = 351
     Top = 8
     Width = 134
-    Height = 33
+    Height = 21
     Enabled = False
     TabOrder = 1
   end
